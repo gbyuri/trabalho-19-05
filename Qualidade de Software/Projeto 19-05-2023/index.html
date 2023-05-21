@@ -16,6 +16,8 @@
                         <img src="images/logo.png" alt=""></img>
                     </a>
                 </div>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
                 <ul class="menu-nav">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Produtos</a></li>
@@ -23,31 +25,109 @@
                 </ul>
             </nav>
         </header>
-
         <div class="index-body">
             <div class="banner-body">
                 <div class="slider">
-                    <img src="images/banner-img-1.jpg" alt="" class="banner-img">
-                    <img src="images/banner-img-2.jpg" alt="" class="banner-img">
-                    <img src="images/banner-img-3.jpg" alt="" class="banner-img">
-                    <img src="images/banner-img-4.jpg" alt="" class="banner-img">
-                    <img src="images/banner-img-5.jpg" alt="" class="banner-img">
+                    <div class="slider-imgs">
+                        <img src="images/banner-img-1.jpg" alt="" class="banner-img1">
+                        <img src="images/banner-img-2.jpg" alt="" class="banner-img2">
+                        <img src="images/banner-img-3.jpg" alt="" class="banner-img3">
+                        <img src="images/banner-img-4.jpg" alt="" class="banner-img4">
+                        <img src="images/banner-img-5.jpg" alt="" class="banner-img5">
+                    </div>
                     <form action="">
-                        <input type="checkbox" name="img-1" id="img-1" class="check-banner" onclick="checkbanner()">
-                        <input type="checkbox" name="img-2" id="img-2" class="check-banner" onclick="checkbanner()">
-                        <input type="checkbox" name="img-3" id="img-3" class="check-banner" onclick="checkbanner()">
-                        <input type="checkbox" name="img-4" id="img-4" class="check-banner" onclick="checkbanner()">
-                        <input type="checkbox" name="img-5" id="img-5" class="check-banner" onclick="checkbanner()">
+                        <input type="checkbox" name="img-1" id="img-1" class="check-banner" onclick="checkbanner1()">
+                        <input type="checkbox" name="img-2" id="img-2" class="check-banner" onclick="checkbanner2()">
+                        <input type="checkbox" name="img-3" id="img-3" class="check-banner" onclick="checkbanner3()">
+                        <input type="checkbox" name="img-4" id="img-4" class="check-banner" onclick="checkbanner4()">
+                        <input type="checkbox" name="img-5" id="img-5" class="check-banner" onclick="checkbanner5()">
                         <label for="img-1" class="img-dot"><li></li></label>
                         <label for="img-2" class="img-dot"><li></li></label>
                         <label for="img-3" class="img-dot"><li></li></label>
                         <label for="img-4" class="img-dot"><li></li></label>
                         <label for="img-5" class="img-dot"><li></li></label>
-                        
                     </form>
                 </div>
             </div>
+            <div class="divider"></div>
+            <div class="content-main">
+                <article class="article-main">
+                    <h1>CERVEJA DE MACHO</h1>
+                    <cite>É a herança do antigos passado por gerações!</cite>
+                    <img src="images/content-img-1.jpg" alt="https://pixabay.com/pt/photos/abuso-alk-%c3%a1lcool-alco%c3%b3lico-62252/">
+                    <p>
+                        O estereótipo do homem másculo que bebe cerveja é uma influência cultural
+                         arraigada nas gerações passadas, associando a masculinidade a
+                         comportamentos agressivos e consumo excessivo de álcool.
+                         Essa visão estereotipada pode contribuir para lares abusivos.
+                    </p>
+                    <p>
+                        A cultura da geração anterior valorizava a força física, dominância e
+                        supressão das emoções como características masculinas, sem espaço para
+                        vulnerabilidade ou expressão saudável. A associação entre masculinidade
+                        e álcool reforçava a ideia de que o homem másculo deveria beber sem
+                        demonstrar fraqueza.
+                    </p>
+                    <img src="images/content-img-2.jpg" alt="https://pixabay.com/pt/photos/bebendo-cerveja-garrafa-%c3%a1lcool-925288/">
+                    <p>
+                        Essa cultura prejudicial resulta em lares abusivos, com homens
+                        reproduzindo violência e comportamentos problemáticos relacionados
+                        ao álcool. Jovens expostos a esses ambientes sofrem impactos negativos,
+                        perpetuando um ciclo de abuso e violência. É crucial romper com esse
+                        estereótipo, promovendo uma cultura de masculinidade saudável baseada em
+                        empatia, expressão emocional e responsabilidade individual para criar
+                        ambientes seguros às futuras gerações.
+                    </p>
+                </article>
+                <aside class="aside-main">
+                    <h2>Autor</h2>
+                    <img src="images/autor-profile.jpg" alt="https://pixabay.com/pt/photos/homem-cara-cabelo-longo-suspens%c3%b3rio-4875665/">
+                    <span>Leonel Richard</span>
+                    <p>
+                        Leonel Richard é um redator brasileiro com cinco anos de experiência,
+                        especializado em abordar temas modernos e de interesse dos jovens em sua
+                        escrita engajada e reflexiva.
+                    </p>
+                </aside>
+            </div>
+
         </div>
+        <div class="divider"></div>
+        <footer>
+            <div class="footer-content">
+                <div class="social">
+                    <div class="logo-footer">
+                        <a href="">
+                            <img src="images/logo.png" alt=""></img>
+                        </a>
+                    </div>
+                    <ul class="medias">
+                        <li><a href=""><img src="icons/twitter.png" alt="https://www.flaticon.com/free-icon/twitter_2111688"></a></li>
+                        <li><a href=""><img src="icons/instagram.png" alt="https://www.flaticon.com/free-icon/instagram_2111463"></a></li>
+                        <li><a href=""><img src="icons/facebook.png" alt="https://www.flaticon.com/free-icon/facebook_2111398"></a></li>
+                    </ul>
+                </div>
+                <ul class="links-1">
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="">Produtos</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+                <ul class="links-2">
+                    <li><a href="">História</a></li>
+                    <li><a href="">Autores</a></li>
+                    <li><a href="">Direitos</a></li>
+                </ul>
+
+                <div class="newsletter">
+                    <h3>Mantenha-se informado:</h3>
+                    <p>Receba nossas noticias em sua caixa de mensagem</p>
+                    <form action="">
+                        <input type="email" name="email" id="mail">
+                        <a href=""><img src="icons/email.png" alt="https://www.flaticon.com/free-icon/email_893257?related_id=893257&origin=pack"></a>
+                    </form>
+                </div>
+            </div>
+        </footer>
     </div>
 <script src="js/script.js"></script>
 </body>
